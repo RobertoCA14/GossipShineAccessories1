@@ -38,11 +38,6 @@ export default function App() {
               <ShoppingCart cart={cart} removeFromCart={removeFromCart} />
             )}
           />
-
-          <Route
-            path="/footer"
-            component={() => <ShoppingCart cart={contacto} />}
-          />
         </Switch>
       </div>
       <Footer />
